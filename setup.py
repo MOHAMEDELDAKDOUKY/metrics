@@ -130,7 +130,7 @@ if __name__ == "__main__":
         include_package_data=True,
         zip_safe=False,
         keywords=["deep learning", "machine learning", "pytorch", "metrics", "AI"],
-        python_requires=">=3.7",
+        python_requires=">=3.6",
         setup_requires=[],
         install_requires=BASE_REQUIREMENTS,
         extras_require=_prepare_extras(),
